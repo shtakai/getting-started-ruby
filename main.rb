@@ -3,6 +3,6 @@ require 'json'
 
 get '/' do
       content_type :json
-        return {:cities=> ["Amsterdam", "San Francisco", "Berlin",
+        return {:cities=> ["Chiang Mai", "San Francisco", "Berlin",
                            "New York", "Tokyo", "London", "Palo Alto"]}.to_json
 end
